@@ -12,5 +12,5 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile))
 app.use(router);
 
 app.listen("3333", () => {
-    console.log("App online on port 3333 🚀");
+  console.log("App online on port 3333 🚀");
 })
